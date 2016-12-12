@@ -1,0 +1,20 @@
+{
+    "name":         "becklyn/interfaces",
+    "description":  "A collection of interfaces to provide interop of Becklyn libraries",
+    "keywords":     ["becklyn", "interface"],
+    "license":      "BSD-3-Clause",
+    "type":         "library",
+    "homepage":     "https://github.com/Becklyn/Interfaces",
+    "authors": [
+        {
+            "name":     "Becklyn Studios",
+            "homepage": "http://becklyn.com/"
+        }
+    ],
+    "require": {
+        "php": "^7.0.7"
+    },
+    "autoload": {
+        "psr-4": { "Becklyn\\Interfaces\\": "src/" }
+    }
+}
